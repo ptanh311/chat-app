@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+// Variable
+
+// Reset css
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+}
+
+// App css 
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-color: #b4ddee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+

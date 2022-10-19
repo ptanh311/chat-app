@@ -1,0 +1,62 @@
+$icon-background: #3a3b3c;
+$icon-hover-background: #4e4f50;
+
+.wrapper {
+    padding: 12px;
+    width: 60px;
+    background-color: #242526;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        svg {
+            width: 33px;
+            height: 33px;
+            fill: #3d99f5;
+        }
+        margin-bottom: 16px;
+        cursor: pointer;
+    }
+    
+    .nav-icon {
+        display: flex;
+        width: 100%;
+        padding: 8px 14px;
+        justify-content: center;
+        color: #b8bbbf;
+        border-radius: 4px;
+
+        svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        &:hover {
+            background-color: #3a3b3c;
+            cursor: pointer;
+        }
+
+    }
+
+    .action {
+        font-size: 1.8rem;
+
+        .icon-wrap {
+            padding: 6px;
+            background-color: $icon-background;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: background-color 200ms;
+            color: #b8bbbf;
+
+            &:hover {
+                background-color: $icon-hover-background;
+            }
+        }
+    }
+
+}

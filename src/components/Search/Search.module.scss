@@ -1,0 +1,23 @@
+.wrapper {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+
+    .search {
+        color: #e4e6eb;
+        background-color: #3a3b3c;
+        border: none;
+        height: 36px;
+        width: 100%;
+        border-radius: 50px;
+        padding: 0 10px;
+        outline: none;
+    }
+
+    @supports (-moz-appearance:none) {
+        .search {
+            padding: 7px 10px 10px 12px;
+        }
+    }
+}

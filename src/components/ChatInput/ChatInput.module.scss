@@ -1,0 +1,52 @@
+.wrapper {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #242526;
+    // border-top: 1px solid #2d3a41;
+    padding: 0 8px;
+
+    .input {
+        flex: 1;
+        height: 32px;
+        color: #e4e6eb;
+        background-color: #424242;
+        border: none;
+        outline: none;
+        border-radius: 100px;
+        padding: 12px;
+    }
+
+    #file, #image {
+        display: none;
+    }
+
+    .file-label {
+        color: #3D99F5;
+        font-size: 2rem;
+        margin-right: 12px;
+        cursor: pointer;
+    }
+
+    .send-btn {
+        background-color: #3D99F5;
+        border: none;
+        display: flex;
+        align-items: center;
+        // color: #e4e6eb;
+        padding: 8px 12px;
+        border-radius: 50px;
+        margin-left: 8px;
+        cursor: pointer;
+    }
+
+    @supports (-moz-appearance:none) {
+        .input {
+            padding: 7px 12px 9px 12px;
+        }
+
+        .send-btn {
+            padding: 6px 12px 9px 12px;
+        }
+}
+}

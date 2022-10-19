@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+    gap: 12px;
+
+    .icon-wrap {
+        width: 16px;
+        
+        svg {
+            color: rgb(149, 174, 228);
+        }
+    }
+}
